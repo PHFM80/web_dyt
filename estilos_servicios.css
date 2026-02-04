@@ -1,0 +1,108 @@
+.hero,
+.section,
+.site-footer {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+}
+
+body {
+  --bg: #f3f6fb;
+  --bg-soft: #e6edf7;
+  --surface: #ffffff;
+  --accent: #2f6fb3;
+  --accent-dark: #1f4f86;
+  --text: #1b2635;
+  --muted: #4c5c74;
+  --border: #d6deea;
+  --shadow: 0 20px 45px rgba(24, 36, 56, 0.12);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.section.alt {
+  background: #eef3fb;
+}
+
+
+
+.hero.services-cover .hero-content {
+  text-align: center;
+  width: min(1100px, 90%);
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-block {
+  display: block;
+}
+
+.hero-kicker {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  color: #f08a5b;
+}
+
+.hero-title,
+.hero-lead {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-title {
+  padding-right: 40px;
+}
+
+.hero-lead {
+  padding-top: 32px;
+  color: #f1f4f8;
+}
+
+.hero-title .line,
+.hero-lead .line {
+  display: block;
+}
+
+.hero-title .line {
+  white-space: nowrap;
+}
+
+.services-cover {
+  background-image: url("assets/quehacemos4.jpg");
+}
+
+@media (max-width: 900px) {
+  .hero-title .line {
+    white-space: normal;
+  }
+}
+
+.services-grid .card {
+  height: 100%;
+  padding: 56px;
+}
+
+.services-grid {
+  gap: 40px;
+}
+
+.services-grid .card h3 {
+  text-align: center;
+  font-size: 1.35rem;
+}
+
+@media (max-width: 1100px) {
+  .grid-3.fixed-3.services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .grid-3.fixed-3.services-grid {
+    grid-template-columns: 1fr;
+  }
+}

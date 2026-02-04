@@ -1,0 +1,18 @@
+body {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  --bg: #f3f6fb;
+  --bg-soft: #e6edf7;
+  --surface: #ffffff;
+  --accent: #2f6fb3;
+  --accent-dark: #1f4f86;
+  --text: #1b2635;
+  --muted: #4c5c74;
+  --border: #d6deea;
+  --shadow: 0 20px 45px rgba(24, 36, 56, 0.12);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.section.alt {
+  background: #eef3fb;
+}

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DYT | Lo que hacemos</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="estilos_header.css" />
+    <link rel="stylesheet" href="estilos_servicios.css" />
+    <link rel="stylesheet" href="estilos_footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,55 +18,85 @@
   <body>
     <header class="site-header">
       <div class="container nav">
-        <a class="brand" href="index.html">DYT</a>
+        <a class="brand" href="index.html">
+          <img class="logo" src="assets/Logo.png" alt="Desarrollos y Tecnologías" />
+          <span>Desarrollos y Tecnologías</span>
+        </a>
         <nav class="menu">
-          <a href="index.html">Empresa</a>
-          <a href="servicios.html" class="active">Lo que hacemos</a>
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html" class="active">Servicios</a>
           <a href="contacto.html">Contacto</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero compact">
+      <section class="hero compact cover services-cover">
+        <div class="cover-overlay"></div>
         <div class="container hero-content">
-          <p class="eyebrow">Servicios</p>
-          <h1>Automatizaciones, scraping y productos digitales.</h1>
-          <p class="lead">
-            Construimos soluciones que eliminan trabajo manual y conectan tus
-            herramientas en un solo flujo.
-          </p>
+          <div class="hero-block">
+            <h2 class="hero-kicker">Nuestros servicios</h2>
+          </div>
+          <div class="hero-block">
+            <h1 class="hero-title">
+              <span class="line">Automatizaciones, scraping</span>
+              <span class="line">y productos digitales.</span>
+            </h1>
+          </div>
+          <div class="hero-block">
+            <p class="lead hero-lead">
+              <span class="line"
+                >Construimos soluciones que eliminan trabajo manual y</span
+              >
+              <span class="line">conectan tus herramientas en un solo flujo.</span>
+            </p>
+          </div>
         </div>
         <div class="hero-art secondary" aria-hidden="true"></div>
       </section>
 
       <section class="section">
-        <div class="container grid-2">
+        <div class="container grid-3 fixed-3 services-grid">
           <div class="card">
-            <h3>Automatizacion de tareas</h3>
+            <h3>Titulo 1</h3>
             <p>
-              Integraciones entre sistemas, bots internos y procesos sin
-              friccion para que tu equipo se enfoque en lo importante.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
             </p>
           </div>
           <div class="card">
-            <h3>Data scraping y analitica</h3>
+            <h3>Titulo 2</h3>
             <p>
-              Extraccion de datos publicos, monitoreo de competidores y reportes
-              accionables con dashboard.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
             </p>
           </div>
           <div class="card">
-            <h3>Productos SaaS a medida</h3>
+            <h3>Titulo 3</h3>
             <p>
-              MVPs rapidos con roadmap claro para validar y escalar tu idea.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
             </p>
           </div>
           <div class="card">
-            <h3>Consultoria tecnica</h3>
+            <h3>Titulo 4</h3>
             <p>
-              Auditoria de procesos, arquitectura y propuesta de mejoras
-              inmediatas.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Titulo 5</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Titulo 6</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              viverra orci sit amet eros posuere, vel varius massa.
             </p>
           </div>
         </div>
@@ -93,10 +126,16 @@
 
     <footer class="site-footer">
       <div class="container footer-content">
-        <p>DYT © 2026</p>
+        <p>D &amp; T © 2026</p>
         <div class="footer-links">
-          <a href="index.html">Empresa</a>
+          <a href="index.html">Inicio</a>
           <a href="contacto.html">Contacto</a>
+          <a href="https://instagram.com/" target="_blank" rel="noreferrer"
+            >Instagram</a
+          >
+          <a href="https://facebook.com/" target="_blank" rel="noreferrer"
+            >Facebook</a
+          >
         </div>
       </div>
     </footer>

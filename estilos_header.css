@@ -1,0 +1,18 @@
+.site-header {
+  background: rgba(243, 246, 251, 0.85);
+}
+
+.site-header,
+.site-header .brand,
+.site-header .menu {
+  font-family: "Roboto", "Segoe UI", sans-serif;
+}
+
+.menu a {
+  color: #52627a;
+}
+
+.menu a:hover,
+.menu a.active {
+  color: #1b2635;
+}
