@@ -325,9 +325,14 @@ h2 {
   padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid var(--border);
-  background: #121621;
-  color: var(--text);
+  background: #f1f4f8;
+  color: #2b3a55;
   font-family: inherit;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #8c96a8;
 }
 
 .form input:focus,

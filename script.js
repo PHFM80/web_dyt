@@ -15,3 +15,18 @@ const observer = new IntersectionObserver(
 );
 
 revealItems.forEach((item) => observer.observe(item));
+
+const contactForm = document.querySelector(".form");
+const successModal = document.querySelector("#success-modal");
+const modalAccept = document.querySelector(".modal-accept");
+
+if (contactForm && successModal && modalAccept) {
+  contactForm.addEventListener("submit", () => {
+    successModal.classList.add("show");
+    successModal.setAttribute("aria-hidden", "false");
+  });
+
+  modalAccept.addEventListener("click", () => {
+    window.location.href = "index.html";
+  });
+}

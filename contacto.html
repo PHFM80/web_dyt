@@ -31,13 +31,24 @@
     </header>
 
     <main>
-      <section class="hero compact">
+      <section class="hero compact cover contact-cover">
+        <div class="cover-overlay"></div>
         <div class="container hero-content">
-          <p class="eyebrow">Contacto</p>
-          <h1>Hablemos de tu proyecto.</h1>
-          <p class="lead">
-            Contanos brevemente tu idea y respondemos con una propuesta clara.
-          </p>
+          <div class="hero-block">
+            <h2 class="hero-kicker">Contacto</h2>
+          </div>
+          <div class="hero-block">
+            <h1 class="hero-title">
+              <span class="line">Hablemos de tu</span>
+              <span class="line">proyecto.</span>
+            </h1>
+          </div>
+          <div class="hero-block">
+            <p class="lead hero-lead">
+              <span class="line">Contanos brevemente tu idea y respondemos</span>
+              <span class="line">con una propuesta clara.</span>
+            </p>
+          </div>
         </div>
         <div class="hero-art tertiary" aria-hidden="true"></div>
       </section>
@@ -46,27 +57,41 @@
         <div class="container grid-2">
           <form
             class="card form"
-            action="mailto:tu@correo.com"
+            action="https://formsubmit.co/dytdigitaliza@gmail.com"
             method="post"
-            enctype="text/plain"
+            target="formsubmit_iframe"
           >
+            <input
+              type="hidden"
+              name="_cc"
+              value="pablofloresmaza@gmail.com"
+            />
             <label>
               Nombre
               <input type="text" name="nombre" placeholder="Tu nombre" required />
             </label>
-            <label>
-              Email
-              <input
-                type="email"
-                name="email"
-                placeholder="tu@email.com"
-                required
-              />
-            </label>
-            <label>
-              Mensaje
-              <textarea
-                name="mensaje"
+    <label>
+      Email
+      <input
+        type="email"
+        name="email"
+        placeholder="tu@email.com"
+        required
+      />
+    </label>
+    <label>
+      Teléfono
+      <input
+        type="tel"
+        name="telefono"
+        placeholder="+54 9 11 0000 0000"
+        required
+      />
+    </label>
+    <label>
+      Mensaje
+      <textarea
+        name="mensaje"
                 rows="5"
                 placeholder="Contanos que necesitas"
                 required
@@ -80,15 +105,32 @@
               Si preferis, escribinos directo o agenda una llamada.
             </p>
             <div class="contact-list">
-              <p><span>Email:</span> tu@correo.com</p>
-              <p><span>WhatsApp:</span> +54 9 11 0000 0000</p>
-              <p><span>LinkedIn:</span> linkedin.com/in/tu-perfil</p>
+              <p><span>Email:</span> dytdigitaliza@gmail.com</p>
+              <p><span>WhatsApp:</span> +54 9 261 23354493</p>
+
             </div>
             <a class="btn ghost" href="servicios.html">Ver servicios</a>
           </div>
         </div>
       </section>
     </main>
+
+    <div class="modal-backdrop" id="success-modal" aria-hidden="true">
+      <div class="modal">
+        <h3>Mensaje enviado</h3>
+        <p>
+          Tu correo fue enviado exitosamente. A la brevedad nos contactaremos
+          con usted.
+        </p>
+        <button class="btn primary modal-accept" type="button">Aceptar</button>
+      </div>
+    </div>
+
+    <iframe
+      name="formsubmit_iframe"
+      title="Form submit"
+      class="hidden-iframe"
+    ></iframe>
 
     <footer class="site-footer">
       <div class="container footer-content">
