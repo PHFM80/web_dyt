@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="estilos_header.css" />
     <link rel="stylesheet" href="estilos_contacto.css" />
     <link rel="stylesheet" href="estilos_footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -100,9 +107,29 @@
             <p>
               Si preferis, escribinos directo o agenda una llamada.
             </p>
-            <div class="contact-list">
+            <div class="contact-list contact-list-spaced">
               <p><span>Email:</span> dytdigitaliza@gmail.com</p>
-              <p><span>WhatsApp:</span> +54 9 261 23354493</p>
+              <p>
+                <span>WhatsApp:</span>
+                <a
+                  class="contact-link"
+                  href="https://wa.me/5492612354493"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  +54 9 261 2354493
+                  <svg
+                    class="inline-icon whatsapp-icon"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M19.11 17.3c-.27-.14-1.6-.79-1.84-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.21-.59.07-.27-.14-1.15-.43-2.2-1.38-.81-.72-1.36-1.62-1.52-1.89-.16-.27-.02-.41.12-.54.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.46h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.93 2.94 4.67 4.12.65.28 1.16.45 1.55.58.65.21 1.24.18 1.7.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32M16.03 4.8c-6.16 0-11.18 4.97-11.18 11.07 0 2 .54 3.95 1.56 5.67L4 28l6.6-2.17a11.2 11.2 0 0 0 5.43 1.4c6.16 0 11.18-4.97 11.18-11.07S22.19 4.8 16.03 4.8m0 20.47c-1.76 0-3.48-.47-4.98-1.37l-.36-.21-3.91 1.29 1.28-3.79-.23-.38a9.04 9.04 0 0 1-1.39-4.74c0-5 4.11-9.07 9.59-9.07 5.29 0 9.59 4.07 9.59 9.07s-4.3 9.2-9.59 9.2"
+                    />
+                  </svg>
+                </a>
+              </p>
 
             </div>
             <a class="btn ghost" href="servicios.html">Ver servicios</a>
@@ -134,12 +161,18 @@
         <div class="footer-links">
           <a href="index.html">Inicio</a>
           <a href="servicios.html">Servicios</a>
-          <a href="https://instagram.com/" target="_blank" rel="noreferrer"
-            >Instagram</a
-          >
-          <a href="https://facebook.com/" target="_blank" rel="noreferrer"
-            >Facebook</a
-          >
+          <a href="https://www.instagram.com/dytdigitaliza/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61571476868202" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="https://wa.me/5492612354493" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
         </div>
       </div>
     </footer>

@@ -72,7 +72,7 @@ body {
 }
 
 .services-cover {
-  background-image: url("assets/quehacemos4.jpg");
+  background-image: url("assets/portada_servicios.webp");
 }
 
 @media (max-width: 900px) {
@@ -93,6 +93,20 @@ body {
 .services-grid .card h3 {
   text-align: center;
   font-size: 1.35rem;
+}
+
+.services-closing {
+  margin-top: 40px;
+  color: #4c5c74;
+  display: grid;
+  gap: 8px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.35rem;
+}
+
+.services-closing p:first-child {
+  font-weight: 700;
 }
 
 @media (max-width: 1100px) {

@@ -61,7 +61,7 @@ body {
 }
 
 .contact-cover {
-  background-image: url("assets/contacto5.webp");
+  background-image: url("assets/portada_contacto.webp");
 }
 
 @media (max-width: 900px) {
@@ -126,4 +126,28 @@ body {
 
 .hidden-iframe {
   display: none;
+}
+
+.inline-icon {
+  width: 22px;
+  height: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.whatsapp-icon {
+  color: #25d366;
+}
+
+.contact-list-spaced {
+  gap: 18px;
+}
+
+.contact-link {
+  color: #1b2635;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  color: #25d366;
 }

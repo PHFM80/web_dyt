@@ -5,4 +5,11 @@
 
 .footer-links a {
   color: #3c4c63;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-links i {
+  font-size: 1rem;
 }
